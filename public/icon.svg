@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">ZongoLink app icon</title>
+  <rect width="512" height="512" rx="112" fill="#0d946f" />
+  <path
+    d="M144 176h224l-152 160h152"
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="48"
+  />
+  <circle cx="160" cy="352" r="28" fill="#ccfbec" />
+  <circle cx="352" cy="160" r="28" fill="#ccfbec" />
+</svg>
