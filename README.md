@@ -1,72 +1,48 @@
 # ZongoLink-V1
 
-ZongoLink-V1 is an offline-first Progressive Web App (PWA) for local wireless communication. It is designed to help people on the same Wi-Fi network or mobile hotspot exchange messages, media, and voice communication without requiring internet access.
+## Project Name
 
-The project focuses on practical, low-friction communication for families, schools, communities, small businesses, and event groups where connectivity may be limited, unreliable, expensive, or unavailable.
+ZongoLink-V1
 
-## Project Overview
+## Project Description
 
-ZongoLink-V1 enables nearby users to create or join local communication rooms from a browser or installed PWA. Users can connect through shared passcodes or QR codes, making it easier for groups on the same local network to communicate quickly.
+ZongoLink-V1 is an offline-first Progressive Web App (PWA) concept for local wireless communication. The project is intended to help people on the same Wi-Fi network or mobile hotspot exchange messages, media, and voice communication without requiring internet access.
 
-The long-term goal is to provide a lightweight, installable, local-first communication tool that works in internet-constrained environments while remaining simple enough for non-technical users.
-
-## Features
-
-- Multiple rooms for separate groups or conversations
-- Join rooms using a passcode
-- Join rooms using a QR code
-- Text messaging
-- Voice notes
-- Live voice communication
-- Image sharing
-- File sharing
-- Video file sharing
-- PWA installation for app-like access on supported devices
-
-## Target Users
-
-- Families who need local communication at home or during travel
-- Schools coordinating students, staff, or classroom groups
-- Communities operating in areas with limited connectivity
-- Small businesses that need local team communication
-- Events where attendees or organizers share the same hotspot or Wi-Fi network
-
-## Technology Stack
-
-The intended technology stack centers on browser-native and PWA capabilities:
-
-- Progressive Web App architecture
-- Service worker for offline-first behavior
-- Web app manifest for installability
-- Local network communication for same-network users
-- WebRTC for peer-to-peer voice, media, and data communication
-- QR code generation and scanning for room joining
-- Browser storage for local state and offline persistence
-- Responsive web UI for mobile and desktop use
-
-Implementation details may evolve as the project moves from planning into active development.
-
-## Roadmap Summary
-
-- Define the core product requirements and user flows
-- Build the initial PWA shell and installable app experience
-- Implement room creation and passcode-based joining
-- Add QR-code room joining
-- Deliver real-time text messaging
-- Add image, file, and video sharing
-- Implement voice notes
-- Add live voice communication
-- Improve reliability across common Wi-Fi and hotspot environments
-- Prepare documentation, testing, and release packaging
+The product focuses on practical, low-friction communication for families, schools, communities, small businesses, and event groups where connectivity may be limited, unreliable, expensive, or unavailable.
 
 ## Development Status
 
-ZongoLink-V1 is currently in early development. The repository is being prepared with foundational documentation and project structure before the main application implementation is completed.
+Planning Phase
 
-Core features, technical architecture, and user experience details are subject to refinement as development progresses.
+The repository currently contains planning documents, prompt notes, and asset placeholders only. Application source code, package configuration, and React project files have not been created yet.
 
-## License
+## Repository Structure Overview
 
-License information has not been finalized yet.
+```text
+ZongoLink-V1/
+├── docs/
+│   ├── README.md
+│   ├── PRD.md
+│   ├── ARCHITECTURE.md
+│   ├── ROADMAP.md
+│   └── TEST.md
+├── prompts/
+│   ├── README.md
+│   └── codex-prompts.md
+├── assets/
+│   └── README.md
+├── README.md
+└── .gitignore
+```
 
-Placeholder: `TBD`
+### docs
+
+Contains product requirements, architecture notes, roadmap planning, testing notes, and other project documentation.
+
+### prompts
+
+Contains prompt drafts, reusable AI instructions, and project-specific Codex workflow notes.
+
+### assets
+
+Contains project assets such as images, icons, diagrams, branding files, and other non-source materials.
