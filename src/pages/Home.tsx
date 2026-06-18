@@ -7,7 +7,12 @@ const features = [
   'Video File Sharing',
 ];
 
-export function Home() {
+interface HomeProps {
+  onCreateRoom: () => void;
+  onJoinRoom: () => void;
+}
+
+export function Home({ onCreateRoom, onJoinRoom }: HomeProps) {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-950">
       <section
@@ -43,9 +48,9 @@ export function Home() {
               Connect. Share. Communicate.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              {/* Placeholder actions keep the landing page ready without wiring room flows yet. */}
               <button
                 type="button"
+                onClick={onCreateRoom}
                 className="inline-flex min-h-12 items-center justify-center rounded-md bg-brand-600 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:ring-offset-2"
                 aria-label="Create Room"
               >
@@ -53,6 +58,7 @@ export function Home() {
               </button>
               <button
                 type="button"
+                onClick={onJoinRoom}
                 className="inline-flex min-h-12 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-3 text-base font-semibold text-slate-900 shadow-sm transition hover:border-brand-500 hover:text-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:ring-offset-2"
                 aria-label="Join Room"
               >
